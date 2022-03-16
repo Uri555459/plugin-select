@@ -1,0 +1,16 @@
+{
+  "name": "plugin-select",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.11",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.11",
+    "sass": "^1.49.9"
+  }
+}
